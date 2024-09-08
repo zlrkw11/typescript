@@ -20,3 +20,16 @@ const user = {
 user.location; // returns undefined
 ````
 JS will return undefined when the prop doesnt exist. While TS will provide an error.
+
+## Explicit Types
+### hello.ts
+specified the person is a string and date is a Date object. 
+So, the greet function will take person of type string and date of type Date. So, the function can only be used with the right types of params passed in.
+
+````
+function greet(person: string, date: Date) {
+  console.log(`Hello ${person}, today is ${date.toDateString()}!`);
+}
+ 
+greet("Maddison", new Date());
+````
