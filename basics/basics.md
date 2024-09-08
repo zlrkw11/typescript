@@ -33,3 +33,5 @@ function greet(person: string, date: Date) {
  
 greet("Maddison", new Date());
 ````
+But it is not compulsory to always write out the types.
+
