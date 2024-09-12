@@ -6,3 +6,15 @@ string, number and boolean
 3. boolean - true / false
 
 String / Number / Boolean with capitals are legal but for certain built-in types. Use non-capitals.
+
+## Arrays
+[1,2,3]
+syntax:
+````
+number[],
+string[]
+
+or 
+
+Array<number>
+````
