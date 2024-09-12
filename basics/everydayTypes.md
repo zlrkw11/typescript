@@ -18,3 +18,8 @@ or
 
 Array<number>
 ````
+
+## any
+special type, any, can be used anywhere & whenever we don't want a particular value to cause typechecking errors.
+
+it is very useful when I don't want to write out a long type just to convice TypeScript that a particular line of code is okay.
