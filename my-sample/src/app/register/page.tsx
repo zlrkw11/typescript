@@ -8,9 +8,19 @@ const Register = async () => {
       <h2>Register page</h2>
       <form>
         <label>First Name</label>
-        <Input id="firstname" placeholder="Ray" type="text" name="firstname" />
+        <Input
+          id="firstname"
+          placeholder="first name"
+          type="text"
+          name="firstname"
+        />
         <label>Last Name</label>
-        <Input id="lastname" placeholder="Ray" type="text" name="lastname" />
+        <Input
+          id="lastname"
+          placeholder="last name"
+          type="text"
+          name="lastname"
+        />
         <Label>Email Address</Label>
         <Input id="email" placeholder="email" type="text" name="email" />
         <Label>Password</Label>
@@ -20,7 +30,10 @@ const Register = async () => {
           type="text"
           name="password"
         />
+        <button>Sign Up</button>
       </form>
     </div>
   );
 };
+
+export default Register;
