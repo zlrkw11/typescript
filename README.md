@@ -1,8 +1,6 @@
-# zlrkw11's authentication and authorization with NEXT.JS
+# made by zlrkw11
+### NEXT JS 
+includes authentication and authorization that relate to the online multi-user web-app structure, handling both frontend components and backend logic.
 
-2 important concepts
-## Authentication
-check if user is the one they claimed to be
-
-## Authorisation
-give different users different powers
+### Typescript 
+learning from the docs for basic syntax.
