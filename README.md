@@ -7,3 +7,4 @@ https://ui.shadcn.com/docs/installation/next
 ````
 ### Typescript 
 learning from the docs for basic syntax.
+https://www.typescriptlang.org/docs/handbook/2/basic-types.html
